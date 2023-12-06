@@ -1,0 +1,28 @@
+Tanító halmaz mérete:51
+Kiértékelő halmaz mérete:5
+A gépi tanulás vizsgálata részletesen: 
+TP=4, TN=0, FP=0, FN=1
+Correctly Classified Instances:4
+Incorrectly Classified Instances:1
+Predikált értékek: <vizsgált elem száma> <predikált értéke> <valós értéke>
+1	1.0	0.0
+2	1.0	1.0
+3	1.0	1.0
+4	1.0	1.0
+5	1.0	1.0
+
+J48 pruned tree
+------------------
+
+wage-increase-first-year <= 2.5: bad (14.28/1.28)
+wage-increase-first-year > 2.5
+|   statutory-holidays <= 10
+|   |   vacation = below_average: bad (7.62/1.62)
+|   |   vacation = average: bad (0.0)
+|   |   vacation = generous: good (2.18)
+|   statutory-holidays > 10: good (26.92/1.0)
+
+Number of Leaves  : 	5
+
+Size of the tree : 	8
+

@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="alibaba.alink.alink_connector_jdbc_mysql_flink.1.10_2.11" type="repository">
+    <properties maven-id="com.alibaba.alink:alink_connector_jdbc_mysql_flink-1.10_2.11:1.6.0" />
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/alibaba/alink/alink_connector_jdbc_mysql_flink-1.10_2.11/1.6.0/alink_connector_jdbc_mysql_flink-1.10_2.11-1.6.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

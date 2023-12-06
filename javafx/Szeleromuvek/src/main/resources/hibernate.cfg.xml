@@ -1,0 +1,21 @@
+
+<!DOCTYPE hibernate-configuration PUBLIC
+    "-//Hibernate/Hibernate Configuration DTD//EN"
+    "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+  <session-factory>
+    <property name="connection.url">jdbc:mysql://localhost:3306/szeleromu</property>
+    <property name="connection.driver_class">com.mysql.cj.jdbc.Driver</property>
+    <property name="connection.username">root</property>
+    <!-- <property name="connection.username"/> -->
+    <!-- <property name="connection.password"/> -->
+
+    <!-- DB schema will be updated if needed -->
+    <!-- <property name="hibernate.hbm2ddl.auto">update</property> -->
+    <property name="hibernate.show_sql">true</property>
+    <property name="hibernate.jdbc.batch_size">100</property>
+    <mapping class="com.example.wpa_alpha.PersistenceModels.Helyszin"/>
+    <mapping class="com.example.wpa_alpha.PersistenceModels.Megye"/>
+    <mapping class="com.example.wpa_alpha.PersistenceModels.Torony"/>
+  </session-factory>
+</hibernate-configuration>

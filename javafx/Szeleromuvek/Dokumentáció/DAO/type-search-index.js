@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"com.example.wpa_alpha.DataAccessObjects","l":"HelyszinDAO"},{"p":"com.example.wpa_alpha.DataAccessObjects","l":"MegyeDAO"},{"p":"com.example.wpa_alpha.DataAccessObjects","l":"ToronyDAO"}];updateSearchResults();
